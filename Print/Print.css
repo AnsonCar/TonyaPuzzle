@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    background-color: antiquewhite;
+}
+
+p {
+    margin: 0;
+}
+
+#print {
+    border: 1px solid rgb(113, 113, 222);
+    padding: 10px 10px 10px 10px;
+    background: rgb(242, 242, 242);
+}
