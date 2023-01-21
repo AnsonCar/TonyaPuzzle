@@ -36,6 +36,6 @@
     /* Grid框架_排版用 */
     .main .mainBox .content {
         width: 100%;
-        height: 100px;
+        height: 100%;
     }
 }

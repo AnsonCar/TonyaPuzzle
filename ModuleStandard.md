@@ -1,4 +1,11 @@
-2# 組件規範
+# 組件規範 (Puzzle/Module) Standard
+# Puzzle
+- Frame
+- topNav
+- siderBAr
+- main
+
+# Size
 ## topNav
 width: 100% 
 height: 56px
@@ -16,7 +23,6 @@ width:
 height:
 
 # main_TimeTable
-
 
 # font  字體
 - 菜單標題

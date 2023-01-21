@@ -1,19 +1,18 @@
-// 創建 Custom Element
 class topnav extends HTMLElement {
     constructor() {
-        // 一定要先繼承
         super();
         this.attachShadow({ mode: 'open' })
         this.shadowRoot.innerHTML = `
         <style>
-            .topnav {
-                width: 100px;
-                height: 100px;
-                background-color: red;
+            .tp-topnav {
+                width: 100%;
+                height: 100%;
+                background-color: #8C8C8C;
             }
         </style>
+
         <div class="tp-topnav">
-            <slot></slot>
+
         </div>
         `
     }
