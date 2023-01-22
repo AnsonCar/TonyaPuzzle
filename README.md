@@ -2,8 +2,8 @@
 UI組件庫
 - TonyaPuzzle
 - TonyaPuzzle icon
-- TonyaPuzzle Chatrs
-- TonyaPuzzle System
+- TonyaPuzzle Charts
+- TonyaPuzzle Plus
 
 - 䌓簡英 轉換表
 
