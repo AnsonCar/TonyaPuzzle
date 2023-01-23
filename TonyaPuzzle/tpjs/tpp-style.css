@@ -1,0 +1,16 @@
+html{
+    --frame-color: #a3daff;
+    --topnav-color: #0080ff;
+    --sidebar-color: #03a6ff;
+    --main-color: red;
+}
+
+.content {
+    width: 25%;
+    height: 25%;
+    margin: 16px;
+    /* 浮動方塊 */
+    float: left;
+    background-color: #D9D9D9;
+    /* box-shadow: 0.5px 0.5px 2px  #b5b2b2; */
+}

@@ -8,8 +8,8 @@ UI組件庫
 - 䌓簡英 轉換表
 
 ## 風格
-- 扁平化 ?
-- Material Design ?
+- 擬物風
+- Material Design / 扁平化
 
 ## 規範
 > 提升統一性，降低開發難度，方便更新迭代
@@ -72,7 +72,7 @@ main 主體
 - ERP(Enterprise Resource Planning)企业资源统一管理平台。
 - CMS(Content Manage System)产品后台。
 
-###標準命名
+### 標準命名
 頭:header
 內容:content
 尾:footer
@@ -143,6 +143,8 @@ Ant Desgin
 ---
   LayUI
 - [layui 官網](https://layui.itze.cn/index.html)
+OMI ADMIN
+- [OMI ADMIN](https://omi.cdn-go.cn/admin/latest/index.html#/dashboard)
 ---
 Pear Admin
 - [Pear Admin Github](https://github.com/pearadmin)
