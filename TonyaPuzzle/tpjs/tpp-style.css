@@ -1,6 +1,13 @@
-html{
-    --frame-color: #a3daff;
+:root {
+    --frame-color: #ffffff;
     --topnav-color: #0080ff;
     --sidebar-color: #03a6ff;
     --main-color: #a3daff;
 }
+
+/* :root {
+    --frame-color: #D7FFF1;
+    --topnav-color: #5F8D7D;
+    --sidebar-color: #77AF9C;
+    --main-color: #8CD790;
+} */

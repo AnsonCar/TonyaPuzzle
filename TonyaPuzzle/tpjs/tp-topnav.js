@@ -2,11 +2,11 @@ class topnav extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
-        console.log("成功引入topnav");
     }
 
     connectedCallback() {
-        console.log('成功引入topnav_connected')
+        let h = this.dataset.h;
+
         this.template = document.createElement('template');
         this.template.innerHTML = `
             <div class="tp-topnav">
@@ -16,9 +16,10 @@ class topnav extends HTMLElement {
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
             :host {
-                grid-column: 1/3;
+                // grid-column: 1/3;
+                grid-area: top;
             }
-            
+
             .tp-topnav {
                 width: 100%;
                 height: 100%;

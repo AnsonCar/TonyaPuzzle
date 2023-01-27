@@ -2,11 +2,9 @@ class sidebar extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
-        console.log("成功引入sidebar");
     }
 
     connectedCallback() {
-        console.log('成功引入sidebar_connected')
         this.template = document.createElement('template');
         this.template.innerHTML = `
             <div class="tp-sidebar">
@@ -16,8 +14,9 @@ class sidebar extends HTMLElement {
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
         :host {
-            grid-column: 1;
-            gird-row: 2;
+            // grid-column: 1;
+            // gird-row: 2;
+            grid-area: side;
         }
             .tp-sidebar {
                 width: 100%;

@@ -2,11 +2,9 @@ class main extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
-        console.log("成功引入main");
     }
 
     connectedCallback() {
-        console.log('成功引入main_connected')
         this.template = document.createElement('template');
         this.template.innerHTML = `
             <div class="tp-main">
@@ -15,20 +13,32 @@ class main extends HTMLElement {
         `
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
-            :host .tp-main{
-                grid-column: 2;
-                gird-row: 2;
+            :host {
+                // grid-column: 2;
+                // gird-row: 2;
+                grid-area: main;
             }
+            
+            :host([flex]) .tp-main{
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+            :host([test-mod]) .tp-main{
+                border: 16px solid red;
+            }
+            
             .tp-main {
                 width: 100%;
                 height: 100%;
                 margin: 0px;
                 padding: 8px;
-                box-sizing: border-box;
-                background-color: var(--main-color, red);
-                overflow: auto;
-            }
 
+                box-sizing: border-box;
+                background-color: var(--main-color, #D9D9D9);
+
+                overflow-y: auto;
+            }
         `
 
         this.shadowRoot.appendChild(this.template.content);
