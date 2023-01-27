@@ -2,11 +2,9 @@ class frame extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
-        console.log("成功引入frame");
     }
 
     connectedCallback() {
-        console.log('成功引入frame_connected')
         this.template = document.createElement('template');
         this.template.innerHTML = `
             <div class="tp-frame">

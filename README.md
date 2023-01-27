@@ -1,9 +1,9 @@
 # TonyaPuzzle
 UI組件庫
 - TonyaPuzzle
+- TonyaPuzzle Plus
 - TonyaPuzzle icon
 - TonyaPuzzle Charts
-- TonyaPuzzle Plus
 
 - 䌓簡英 轉換表
 

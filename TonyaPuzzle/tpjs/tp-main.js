@@ -10,9 +10,7 @@ class main extends HTMLElement {
         this.template = document.createElement('template');
         this.template.innerHTML = `
             <div class="tp-main">
-                <div class="tp-mainbox">
-                    <slot></slot>
-                </div>
+                <slot></slot>
             </div>
         `
         this.styles = document.createElement('style');
@@ -25,18 +23,12 @@ class main extends HTMLElement {
                 width: 100%;
                 height: 100%;
                 margin: 0px;
-                padding: 16px;
+                padding: 8px;
                 box-sizing: border-box;
                 background-color: var(--main-color, red);
-            }
-
-            .tp-mainbox {
-                width:100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
                 overflow: auto;
             }
+
         `
 
         this.shadowRoot.appendChild(this.template.content);
