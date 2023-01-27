@@ -155,7 +155,12 @@ HTML
 ---
 CSS
 - [多方法解决设置width:100%再设置margin或padding溢出的问题](https://blog.csdn.net/weixin_34281537/article/details/91898089)
+- [CSS grid-area 属性](https://www.w3school.com.cn/cssref/pr_grid-area.asp)
 - [grid-area 属性](https://www.w3school.com.cn/tiy/t.asp?f=cssref_grid-area_named_4)
+- [css之伪类hover改变自身、子元素、其他元素的样式](https://juejin.cn/post/7023927926215311397)
+---
+JS
+- [https://www.w3school.com.cn/htmldom/prop_style_height.asp](https://www.w3school.com.cn/htmldom/prop_style_height.asp)
 ---
 設計
 - https://codepen.io/azouaoui-med/pen/wpBadb

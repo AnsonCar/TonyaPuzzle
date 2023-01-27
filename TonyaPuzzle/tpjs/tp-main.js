@@ -20,11 +20,13 @@ class main extends HTMLElement {
             :host([flex]) .tp-main{
                 display: flex;
                 flex-flow: row wrap;
-                
+
                 overflow-y: auto;
             }
 
             :host([grid]) .tp-main{
+                padding: 16px;
+
                 display: grid;
                 grid-template-columns: repeat(4, auto);
                 grid-template-rows: repeat(4, auto);
@@ -39,7 +41,7 @@ class main extends HTMLElement {
                 width: 100%;
                 height: 100%;
                 margin: 0px;
-                padding: 8px;
+                padding: 0px;
 
                 box-sizing: border-box;
                 background-color: var(--main-color, #D9D9D9);

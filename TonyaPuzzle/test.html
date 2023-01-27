@@ -1,23 +1,29 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="TonyaPuzzle.js"></script>
-    <!-- <link rel="stylesheet" href="tpjs/tpp-style.css"> -->
+    <script type="text/javascript">
+        function setHeight() {
+            document.getElementById("box2").style.height = "500px";
+        }
+    </script>
     <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
 
+        #box2{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
     </style>
-
-    <title>test</title>
 </head>
 
 <body>
-    <tp-topnav>
-
-    </tp-topnav>
+    <div id="box" onclick="setHeight()"></div>
+    <div id="box2"></div>
 </body>
 
 </html>
