@@ -14,14 +14,21 @@ class main extends HTMLElement {
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
             :host {
-                // grid-column: 2;
-                // gird-row: 2;
                 grid-area: main;
             }
-            
+
             :host([flex]) .tp-main{
                 display: flex;
                 flex-flow: row wrap;
+                
+                overflow-y: auto;
+            }
+
+            :host([grid]) .tp-main{
+                display: grid;
+                grid-template-columns: repeat(4, auto);
+                grid-template-rows: repeat(4, auto);
+                gap: 16px;
             }
 
             :host([test-mod]) .tp-main{
@@ -36,8 +43,6 @@ class main extends HTMLElement {
 
                 box-sizing: border-box;
                 background-color: var(--main-color, #D9D9D9);
-
-                overflow-y: auto;
             }
         `
 

@@ -14,8 +14,6 @@ class sidebar extends HTMLElement {
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
         :host {
-            // grid-column: 1;
-            // gird-row: 2;
             grid-area: side;
         }
             .tp-sidebar {

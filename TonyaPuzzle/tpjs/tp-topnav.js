@@ -16,7 +16,6 @@ class topnav extends HTMLElement {
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
             :host {
-                // grid-column: 1/3;
                 grid-area: top;
             }
 
