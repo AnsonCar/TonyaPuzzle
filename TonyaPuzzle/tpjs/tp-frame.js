@@ -21,6 +21,7 @@ class frame extends HTMLElement {
                 font-family: Arial, Helvetica, sans-serif;
             }
 
+            /* To-B框架 */
             :host([tppToB-00]) .tp-frame{
                 display: grid;
                 grid-template-columns: 224px auto;
@@ -31,15 +32,16 @@ class frame extends HTMLElement {
                 'side main';
             }
 
-
             :host([tppToB-01]) .tp-frame{
                 display: grid;
-                grid-template-columns: auto 224px;
-                grid-template-rows: 56px auto ;
+                grid-template-columns: 280px auto;
+                grid-template-rows: 60px auto ;
 
                 grid-template-areas:
-                'top top'
-                'main side';
+                'side top'
+                'side main';
+
+                --topnav-height:60px;
             }
 
             :host([test-mod]) .tp-frame{

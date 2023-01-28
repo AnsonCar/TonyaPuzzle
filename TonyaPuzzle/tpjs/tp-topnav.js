@@ -18,10 +18,10 @@ class topnav extends HTMLElement {
             :host {
                 grid-area: top;
             }
-
+            
             .tp-topnav {
                 width: 100%;
-                height: 100%;
+                height: var(--topnav-height, 56px);
                 background-color: var(--topnav-color, #8C8C8C);
             }
         `
