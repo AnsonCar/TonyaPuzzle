@@ -41,7 +41,7 @@ class main extends HTMLElement {
                 width: 100%;
                 height: 100%;
                 margin: 0px;
-                padding: 0px;
+                padding: 8px;
 
                 box-sizing: border-box;
                 background-color: var(--main-color, #D9D9D9);

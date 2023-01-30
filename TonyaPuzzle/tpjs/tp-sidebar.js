@@ -18,7 +18,7 @@ class sidebar extends HTMLElement {
             }
 
             .tp-sidebar {
-                width: 100%;
+                width: var(--sidebar-width,224px);
                 height: 100%;
                 background-color: var(--sidebar-color, #bebebe);
             }

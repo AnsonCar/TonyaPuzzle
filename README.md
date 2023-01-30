@@ -1,18 +1,25 @@
 # TonyaPuzzle
-UI組件庫
+>后台管理框架設計語言 及 UI組件庫。  
+>未來更新將會支持 前台框架。
+ 
+## 特性
+- 簡易上手，開箱即用
+- 使用原生H5, CSS3, JS開發，通用性高
+- 4的倍數，偶數思維
+- 模組化
+
+## 內容包括
 - TonyaPuzzle
+  - UI組件庫
 - TonyaPuzzle Plus
+  - 后台及前台框架
 - TonyaPuzzle icon
 - TonyaPuzzle Charts
 
-- 䌓簡英 轉換表
-
-## 風格
-- 擬物風
-- Material Design / 扁平化
+> 準備 語言轉換功能 (䌓簡英)
 
 ## 規範
-> 提升統一性，降低開發難度，方便更新迭代
+提升統一性，降低開發難度，方便更新迭代
 
 Theme 主題 
 - 主色
@@ -163,7 +170,6 @@ JS
 - [https://www.w3school.com.cn/htmldom/prop_style_height.asp](https://www.w3school.com.cn/htmldom/prop_style_height.asp)
 ---
 設計
-- https://codepen.io/azouaoui-med/pen/wpBadb
 - [B端产品从0到1设计规范](https://www.woshipm.com/pd/4647838.html)
 - [Tab设计总结](https://www.xueui.cn/experience/app-experience/summary-of-tab-design.html)
 - [B端产品设计规范](https://cloud.tencent.com/developer/article/1807553)

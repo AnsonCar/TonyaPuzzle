@@ -5,18 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="TonyaPuzzle.js"></script>
-    <link rel="stylesheet" href="tpjs/tpp-theme.css">
+
+    <link rel="stylesheet" href="tpjs/tp-theme.css">
+    </link>
+    <link rel="stylesheet" href="tpjs/tp-must.css">
+    </link>
+
+    <script type="module" src="TonyaPuzzle.js"></script>
+    <script src="tpjs/tp-theme.js"></script>
 
     <title>tp-index</title>
 </head>
-    <script>
-        let tpSetTheme = (theme) => {
-            document.querySelector("tp-frame").className = theme;
-        }
-    </script>
+
 <body>
-    <tp-frame tppToB-00 class="theme-blue">
+    <tp-frame tppToB-01 class="theme-blue">
         <tp-topnav>
 
         </tp-topnav>
@@ -26,31 +28,14 @@
         </tp-sidebar>
         <tp-main flex>
             <div class="flex_content">
-                <input type="button" value="Theme" onclick="tpSetTheme('theme-green')">
+                <input type="button" value="theme-green" onclick="tpSetTheme('theme-green')">
+                <input type="button" value="theme-blue" onclick="tpSetTheme('theme-blue')">
             </div>
-            <div class="flex_content">
-                <input type="button" value="Theme" onclick="tpSetTheme('theme-blue')">
-            </div>
-            <div class="flex_content">2</div>
-            <div class="flex_content">3</div>
-            <div class="flex_content">4</div>
-            <div class="flex_content">5</div>
-            <div class="flex_content">6</div>
-            <div class="flex_content">7</div>
-            <div class="flex_content">8</div>
-            <div class="flex_content">9</div>
-            <div class="flex_content">10</div>
-            <div class="flex_content">11</div>
-            <div class="flex_content">12</div>
-            <div class="flex_content">13</div>
-            <div class="flex_content">14</div>
-            <div class="flex_content">15</div>
-            <div class="flex_content">16</div>
         </tp-main>
     </tp-frame>
 
     <style>
-        .flex_content{
+        .flex_content {
             height: 24%;
             margin: 8px;
             float: left;

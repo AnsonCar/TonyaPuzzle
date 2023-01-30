@@ -40,7 +40,8 @@ class frame extends HTMLElement {
                 grid-template-areas:
                 'side top'
                 'side main';
-
+                
+                --sidebar-width:280px;
                 --topnav-height:60px;
             }
 
