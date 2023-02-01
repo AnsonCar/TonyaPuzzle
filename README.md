@@ -28,5 +28,8 @@
 - ### **TonyaPuzzle icon**
 - ### **TonyaPuzzle Chart**
 
+查看 [Change Log(更新日志)](changelog.md)  
+查看 [參考資料](ReferenceData.md)
+
 <!-- (- 4的倍數，偶數思維) -->
 <!-- 模組化 -->
