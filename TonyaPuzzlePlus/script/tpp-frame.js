@@ -7,14 +7,14 @@ class frame extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tp-frame" id="">
+            <div class="tpp-frame" id="">
                 <slot></slot>
             </div>
         `;
         
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
-            :host .tp-frame, * > *{
+            :host .tpp-frame, * > *{
                 position: fixed;
                 box-sizing: border-box;
 
@@ -22,7 +22,7 @@ class frame extends HTMLElement {
             }
 
             /* To-B框架 */
-            :host([tppToB-00]) .tp-frame{
+            :host([tppToB-00]) .tpp-frame{
                 display: grid;
                 grid-template-columns: 260px auto;
                 grid-template-rows: 56px auto;
@@ -32,11 +32,11 @@ class frame extends HTMLElement {
                 'side main';
             }
 
-            :host([test-mod]) .tp-frame{
+            :host([test-mod]) .tpp-frame{
                 border: 16px solid blue;
             }
 
-            .tp-frame {
+            .tpp-frame {
                 width: 100%;
                 height: 100%;
                 margin: 0;
@@ -51,4 +51,4 @@ class frame extends HTMLElement {
     }
 }
 
-customElements.define('tp-frame', frame);
+customElements.define('tpp-frame', frame);

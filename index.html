@@ -10,26 +10,34 @@
 </head>
 
 <body>
-    <tp-frame tppToB-00 class="theme-blue">
+    <tpp-frame tppToB-00 class="theme-blue">
         <tp-topnav>
             <tp-topnav-item>
                 {{version}}
             </tp-topnav-item>
         </tp-topnav>
-        <tp-sidebar>
+        <tp-sidebar onclick="tpSetTheme('theme-green')">
 
         </tp-sidebar>
         <tp-main>
 
         </tp-main>
-    </tp-frame>
-    
-    <script type="module" src="./TonyaPuzzle/TonyaPuzzle.js"></script>
-    <script src="./TonyaPuzzle/script/tp-templateSyntax.js"></script>
-    <link rel="stylesheet" href="./TonyaPuzzle/TonyaPuzzle.css">
+    </tpp-frame>
+
+    <!-- TonyaPuzzle UI組件 及 功能 -->
+    <script type="module" src="./TonyaPuzzle/tp.js"></script>
+    <script src="./TonyaPuzzle/script/function/tp-templateSyntax.js"></script> <!-- 插值 -->
+    <script src="./TonyaPuzzle/script/function/tp-theme.js"></script> <!-- 轉換主題色 -->
+
+    <!-- TonyaPuzzle Plus 框架 -->
+    <script type="module" src="./TonyaPuzzlePlus/tpp.js"></script>
+
+    <!-- TonyaPuzzle Plus 框架 -->
+    <link rel="stylesheet" href="./TonyaPuzzle/tp.css">
+
     <script>
-        data("tp-frame",{
-            version:"20230201"
+        data("tpp-frame", {
+            version: "20230201"
         });
     </script>
 
