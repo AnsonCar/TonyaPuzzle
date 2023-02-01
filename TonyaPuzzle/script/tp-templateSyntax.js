@@ -1,20 +1,17 @@
 // TemplateSyntax
 function data(name, inData) {
-    // 1.
+    // 1. 
     let element = getName(name);
-    let elemantText = element.innerText;
-    console.log(elemantText);
+    let elemantText = element.innerHTML;
 
     // 2.
     let cNum = findNum(elemantText);
-    console.log(cNum);
 
     // 3. 
     changeText(inData);
-    console.log(elemantText);
     
     // 4. 取代內容
-    element.innerText = elemantText;
+    element.innerHTML = elemantText;
 
     // 1. 引入 目標 大範圍
     function getName(name) {
@@ -32,7 +29,7 @@ function data(name, inData) {
         } else if (isClass(name)) {
             return document.getElementsByClassName(name);
         } else {
-            return document.getElementsByTagName(name);
+            return document.querySelector(name);
         }
     }
 

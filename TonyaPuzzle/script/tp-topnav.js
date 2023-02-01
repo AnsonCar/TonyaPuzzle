@@ -22,6 +22,10 @@ class topnav extends HTMLElement {
             .tp-topnav {
                 width: 100%;
                 height: var(--topnav-height, 56px);
+                
+                display: flex;
+                align-items: center;
+
                 background-color: var(--topnav-color, #8C8C8C);
             }
         `
