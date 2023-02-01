@@ -45,8 +45,15 @@ HTML/CSS/JS
 - [Tab设计总结](https://www.xueui.cn/experience/app-experience/summary-of-tab-design.html)
 - [B端产品设计规范](https://cloud.tencent.com/developer/article/1807553)
 - [ICON设计规范之图标尺寸](https://www.woshipm.com/pd/4482973.html)
+- [Choosing the Right Size and Format for Icons](https://blog.icons8.com/articles/choosing-the-right-size-and-format-for-icons/)
 ---
 vscode插件
 - [Extension API](https://code.visualstudio.com/api)
 - [vscode插件开发教程](https://www.jianshu.com/p/e642856f6044)
 - [从0到1开发一款自己的vscode插件](https://segmentfault.com/a/1190000040720760)
+---
+vue/AngularJS
+- [模板語法Template Syntax – 插值 v-once、v-html](ttps://ithelp.ithome.com.tw/articles/10270131)
+- [菜鳥-Vue3 模板语法](https://www.runoob.com/vue3/vue3-template-syntax.html)
+- [菜鳥-AngularJS 表达式 ](https://www.runoob.com/angularjs/angularjs-expressions.html)
+- [菜鳥-Angular 2 模板语法](https://www.runoob.com/angularjs2/angularjs2-template-syntax.html)

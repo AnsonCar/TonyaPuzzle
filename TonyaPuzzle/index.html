@@ -5,24 +5,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./tpjs/tp-must.css"></link>
     <script type="module" src="./TonyaPuzzle.js"></script>
-    
+    <script src="./tp/tp-TemplateSyntax.js"></script>
     <title>index</title>
 </head>
 
 <body>
-    <tp-frame tppToB-00>
-        <tp-topnav>
-            
-        </tp-topnav>
-        <tp-sidebar>
-
-        </tp-sidebar>
-        <tp-main>
-
-        </tp-main>
-    </tp-frame>
+    <h1 id="title">
+            {{name}}
+        <p id="tt">
+            {{title}} I am {{name}} <br>
+            {{a}}
+        </p>
+    </h1>
+    <script>
+        data("#title",{
+            title:"so",
+            name:"Anson",
+            a:"1"
+        });
+        
+    </script>
 </body>
 
 </html>

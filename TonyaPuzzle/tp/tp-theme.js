@@ -1,3 +1,3 @@
-let tpSetTheme = (theme) => {
+function tpSetTheme(theme) {
     document.querySelector("tp-frame").className = theme;
-} 
+}

@@ -81,6 +81,7 @@ body {
   <a href="#services">Services</a>
   <a href="#clients">Clients</a>
   <a href="#contact">Contact</a>
+
   <button class="dropdown-btn">Dropdown 
     <i class="fa fa-caret-down"></i>
   </button>
@@ -89,6 +90,7 @@ body {
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
   </div>
+
   <a href="#contact">Search</a>
 </div>
 
@@ -107,7 +109,7 @@ var i;
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
+    let dropdownContent = this.nextElementSibling;
     if (dropdownContent.style.display === "block") {
       dropdownContent.style.display = "none";
     } else {

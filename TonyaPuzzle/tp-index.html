@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="tpjs/tp-theme.css">
+    <link rel="stylesheet" href="tp/tp-theme.css">
     </link>
-    <link rel="stylesheet" href="tpjs/tp-must.css">
+    <link rel="stylesheet" href="tp/tp-must.css">
     </link>
 
     <script type="module" src="TonyaPuzzle.js"></script>
-    <script src="tpjs/tp-theme.js"></script>
+    <script src="tp/tp-theme.js"></script>
 
     <title>tp-index</title>
 </head>
@@ -26,23 +26,10 @@
         <tp-sidebar>
 
         </tp-sidebar>
-        <tp-main flex>
-            <div class="flex_content">
-                <input type="button" value="theme-green" onclick="tpSetTheme('theme-green')">
-                <input type="button" value="theme-blue" onclick="tpSetTheme('theme-blue')">
-            </div>
+        <tp-main>
+
         </tp-main>
     </tp-frame>
-
-    <style>
-        .flex_content {
-            height: 24%;
-            margin: 8px;
-            float: left;
-            flex: 1 1 24%;
-            background-color: azure;
-        }
-    </style>
 </body>
 
 </html>
