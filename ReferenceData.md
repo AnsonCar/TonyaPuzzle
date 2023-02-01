@@ -22,6 +22,7 @@ Ant Desgin
 ---
   LayUI
 - [layui 官網](https://layui.itze.cn/index.html)
+---
 OMI ADMIN
 - [OMI ADMIN](https://omi.cdn-go.cn/admin/latest/index.html#/dashboard)
 ---
@@ -57,3 +58,24 @@ vue/AngularJS
 - [菜鳥-Vue3 模板语法](https://www.runoob.com/vue3/vue3-template-syntax.html)
 - [菜鳥-AngularJS 表达式 ](https://www.runoob.com/angularjs/angularjs-expressions.html)
 - [菜鳥-Angular 2 模板语法](https://www.runoob.com/angularjs2/angularjs2-template-syntax.html)
+- [Vue-模板语法](https://cn.vuejs.org/guide/essentials/template-syntax.html)
+
+# 技術支援/名詞介詞
+## Web Components
+由三頁主要技術组成:
+1. Custom elements(自定義元素):  
+一組 JavaScript API，允許您定義 custom elements 及其行為，然後可以在您的用戶界面中按照需要使用它們。
+
+2. Shadow DOM(影子 DOM):  
+一組 JavaScript API，用於將封裝的“影子”DOM 樹附加到元素（與主文檔 DOM 分開呈現）並控制其關聯的功能。通過這種方式，您可以保持元素的功能私有，這樣它們就可以被腳本化和样式化，而不用擔心與文檔的其他部分發生衝突。
+
+3. HTML templates(HTML 模板):  
+`<template>` 和 `<slot>` 元素使您可以編寫不在呈現頁面中顯示的標記模板。
+然後它們可以作為自定義元素結構的基礎被多次重用。
+
+## 常見的B端產品
+- SAAS(Software as a Service)通常指第三方给企业的线上软件服务。
+- CRM(Customer Relationship Management)企业管理客户的工具。
+- OA(Office Automation)办公流程自动化工具。
+- ERP(Enterprise Resource Planning)企业资源统一管理平台。
+- CMS(Content Manage System)产品后台。
