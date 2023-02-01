@@ -5,16 +5,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="./TonyaPuzzle.js"></script>
-    <script src="./tp/tp-templateSyntax.js"></script>
-    <link rel="stylesheet" href="tp/tp-must.css">
+
     <title>index</title>
 </head>
 
 <body>
-    <tp-frame tppToB-00>
+    <tp-frame tppToB-00 class="theme-blue">
         <tp-topnav>
-            {{version}}
+            <tp-topnav-item>
+                {{version}}
+            </tp-topnav-item>
         </tp-topnav>
         <tp-sidebar>
 
@@ -23,12 +23,16 @@
 
         </tp-main>
     </tp-frame>
-
+    
+    <script type="module" src="./TonyaPuzzle/TonyaPuzzle.js"></script>
+    <script src="./TonyaPuzzle/script/tp-templateSyntax.js"></script>
+    <link rel="stylesheet" href="./TonyaPuzzle/TonyaPuzzle.css">
     <script>
         data("tp-frame",{
             version:"20230201"
         });
     </script>
+
 </body>
 
 </html>
