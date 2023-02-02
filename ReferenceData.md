@@ -42,6 +42,8 @@ HTML/CSS/JS
 - [https://www.w3school.com.cn/htmldom/prop_style_height.asp](https://www.w3school.com.cn/htmldom/prop_style_height.asp)
 - [JavaScript Array 对象](https://www.runoob.com/jsref/jsref-obj-array.html)
 - [JS字符串查找（6种方法）](http://c.biancheng.net/view/5581.html)
+-[nodejs 如何引入其它js文件](https://blog.csdn.net/u012251421/article/details/49132813)
+- [JS - for 迴圈與 forEach 有什麼不同](https://www.casper.tw/development/2020/10/05/js-for-loop-vs-for-each/)
 ---
 設計
 - [B端产品从0到1设计规范](https://www.woshipm.com/pd/4647838.html)
