@@ -1,4 +1,9 @@
 # Change Log(更新日志)
+## 2023-02-02 (v.0.0.2)
+- [新增] Tack List (任務列表)文件
+- [新增] tp-crad組件
+- [重寫] TemplateSyntax(模板語法)
+- [重寫] TemplateSyntax(模板語法) 的 Text Interpolations(文字插值)
 
 ## 2023-02-01 (v.0.0.1)
 - [整理] TonyaPuzzle文件

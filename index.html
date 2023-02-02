@@ -17,10 +17,12 @@
             </tp-topnav-item>
         </tp-topnav>
         <tp-sidebar onclick="tpSetTheme('theme-green')">
-
+            
         </tp-sidebar>
-        <tp-main>
-
+        <tp-main grid>
+            <tp-card tp-for="">
+                I am {{name}}
+            </tp-card>
         </tp-main>
     </tpp-frame>
 
@@ -38,7 +40,17 @@
 
     <script>
         data("tpp-frame", {
-            version: "v.0.0.1"
+            version: "v0.0.1",
+            name:"Anson"
+            // card: [
+            //     {item:"1"},
+            //     {item:"2"},
+            //     {item:"3"},
+            //     {item:"4"},
+            //     {item:"5"},
+            //     {item:"6"},
+            //     {item:"7"},
+            //     {item:"8"}
         });
     </script>
 

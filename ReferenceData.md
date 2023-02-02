@@ -54,14 +54,16 @@ vscode插件
 - [从0到1开发一款自己的vscode插件](https://segmentfault.com/a/1190000040720760)
 ---
 vue/AngularJS
-- [模板語法Template Syntax – 插值 v-once、v-html](ttps://ithelp.ithome.com.tw/articles/10270131)
+- [模板語法Template Syntax – 插值 v-once、v-html](https://ithelp.ithome.com.tw/articles/10270131)
 - [菜鳥-Vue3 模板语法](https://www.runoob.com/vue3/vue3-template-syntax.html)
 - [菜鳥-AngularJS 表达式 ](https://www.runoob.com/angularjs/angularjs-expressions.html)
 - [菜鳥-Angular 2 模板语法](https://www.runoob.com/angularjs2/angularjs2-template-syntax.html)
 - [Vue-模板语法](https://cn.vuejs.org/guide/essentials/template-syntax.html)
 ---
 - [google mobile friendly](https://search.google.com/test/mobile-friendly)
-
+---
+QRcode
+- [數位科技系列：再認識QR Code的原理與應用](https://medium.com/artech-interpreter/%E6%95%B8%E4%BD%8D%E7%A7%91%E6%8A%80%E7%B3%BB%E5%88%97-%E5%86%8D%E8%AA%8D%E8%AD%98qr-code%E7%9A%84%E5%8E%9F%E7%90%86%E8%88%87%E6%87%89%E7%94%A8-b2b9eb8f0ef9)
 # 技術支援/名詞介詞
 ## Web Components
 由三頁主要技術组成:

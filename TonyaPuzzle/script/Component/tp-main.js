@@ -28,8 +28,9 @@ class main extends HTMLElement {
                 padding: 16px;
 
                 display: grid;
-                grid-template-columns: repeat(4, auto);
-                grid-template-rows: repeat(4, auto);
+                grid-template:  auto auto auto auto / auto auto auto auto;
+                // grid-template-columns: repeat(4, auto);
+                // grid-template-rows: repeat(4, auto);
                 gap: 16px;
             }
 

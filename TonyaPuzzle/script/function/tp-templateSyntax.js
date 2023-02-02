@@ -59,10 +59,3 @@ function data(name, inData) {
         };
     }
 }
-
-// 原始HTML (Raw HTML)
-// <p><b>Text</b></p>
-
-// 數字/三元
-// {{ 1 + 1 }}
-// {{0 > 1 ? "Yes" : "No"}}

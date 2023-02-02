@@ -17,18 +17,11 @@
 - 后台及前台框架/模板
 
 ## 未來更新
-- 更多組件及框架細節
-- 語言轉換功能 (䌓簡英)
-- 前台框架
-- theme 主題
-    - 白天/黑夜 自動切換 主題
-    - 自定義主題(未完全開放)
-    - 固定更變主題
-- 使用指南
 - ### **TonyaPuzzle icon**
 - ### **TonyaPuzzle Chart**
 
 查看 [Change Log(更新日志)](changelog.md)  
+查看 [Tack List(任務列表)](TackLis.mdt)
 查看 [參考資料](ReferenceData.md)
 
 <!-- (- 4的倍數，偶數思維) -->
