@@ -1,5 +1,4 @@
 # Change Log(更新日志)
-[back](../README.md)
 
 ## 2023-02-04 (v.0.0.4)
 - [新增] doc文件夾放置 相關文件，很多文件太亂。
@@ -24,3 +23,5 @@
 - [綜合] TonyaPuzzle JavaScript文件至 tp.js 方便引入。
 - [綜合] TonyaPuzzle CSS文件至 tp.css 方便引入。
 - [綜合] TonyaPuzzlePlus JavaScirpt文件至 tpp.js 方便引入。
+
+[back](https://github.com/AnsonCar/Tonya)
