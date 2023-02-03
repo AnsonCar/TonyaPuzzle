@@ -20,11 +20,11 @@ class card extends HTMLElement {
             .tp-card {
                 width: 100%;
                 height: 100%;
-                margin: 0px;
-                padding: 0px;
+                padding: 0;
+                margin: 0;
 
-                // box-sizing: border-box;
                 background-color: var(--card-color, #D9D9D9);
+                box-sizing: border-box;
             }
         `
 

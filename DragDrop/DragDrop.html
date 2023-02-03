@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragDrop</title>
+</head>
+<body>
+    <tpp-frame ToB-01>
+        <tp-sidebar>
+            <div class="item">
+                <div class="item-box">
+
+                </div>
+                <div class="item-box">
+    
+                </div>
+                <div class="item-box">
+    
+                </div>
+                <div class="item-box">
+    
+                </div>
+                <div class="item-box">
+    
+                </div>
+                <div class="item-box">
+    
+                </div>
+                <div class="item-box">
+    
+                </div>
+            </div>
+        </tp-sidebar>
+        <tp-main>
+            <iframe src="inHTML.html" frameborder="0">
+
+            </iframe>
+        </tp-main>
+    </tpp-frame>
+    
+    <style>
+        .item{
+            width: 100%;
+            height: 100%;
+            
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+        }
+        .item-box{
+            width: 90%;
+            height: 200px;
+            margin: 8px;
+            background-color: aquamarine;
+        }
+    
+        iframe {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(164, 230, 230);
+        }
+
+    </style>
+    <!-- TonyaPuzzle UI組件 -->
+    <script type="module" src="../TonyaPuzzle/tp.js"></script>
+    <!-- TonyaPuzzle Plus 框架 -->
+    <script type="module" src="../TonyaPuzzlePlus/tpp.js"></script>
+    <!-- TonyaPuzzle 樣式 -->
+    <link rel="stylesheet" href="../TonyaPuzzle/tp.css">
+</body>
+</html>

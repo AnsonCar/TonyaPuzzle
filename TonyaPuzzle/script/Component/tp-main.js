@@ -17,35 +17,24 @@ class main extends HTMLElement {
                 grid-area: main;
             }
 
-            :host([flex]) .tp-main{
-                display: flex;
-                flex-flow: row wrap;
-
-                overflow-y: auto;
-            }
-
             :host([grid]) .tp-main{
-                padding: 16px;
-
                 display: grid;
                 grid-template:  auto auto auto auto / auto auto auto auto;
-                // grid-template-columns: repeat(4, auto);
-                // grid-template-rows: repeat(4, auto);
                 gap: 16px;
             }
 
             :host([test-mod]) .tp-main{
-                border: 16px solid red;
+                border: var(--test-mod,12px solid red);
             }
             
             .tp-main {
-                width: 100%;
-                height: 100%;
-                margin: 0px;
-                padding: 8px;
+                width: var(--main-width,100%);
+                height: var(--main-height,100%);
+                padding: var(--main-padding,8px);
+                margin: 0;
 
-                box-sizing: border-box;
                 background-color: var(--main-color, #D9D9D9);
+                box-sizing: border-box;
             }
         `
 

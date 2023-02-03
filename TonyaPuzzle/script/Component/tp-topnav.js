@@ -5,8 +5,6 @@ class topnav extends HTMLElement {
     }
 
     connectedCallback() {
-        let h = this.dataset.h;
-
         this.template = document.createElement('template');
         this.template.innerHTML = `
             <div class="tp-topnav">
@@ -19,14 +17,23 @@ class topnav extends HTMLElement {
                 grid-area: top;
             }
             
-            .tp-topnav {
-                width: 100%;
-                height: var(--topnav-height, 56px);
-                
+            :host *{
                 display: flex;
                 align-items: center;
+            }
+            
+            :host([test-mod]) .tp-topnav {
+                border: var(--test-mod,12px solid red);
+            }
+
+            .tp-topnav {
+                width: var(--topnav-width, 100%);
+                height: var(--topnav-height, 56px);
+                padding: 0;
+                margin: 0;
 
                 background-color: var(--topnav-color, #8C8C8C);
+                box-sizing: border-box;
             }
         `
 

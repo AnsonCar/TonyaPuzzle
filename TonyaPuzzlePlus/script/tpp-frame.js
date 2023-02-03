@@ -7,42 +7,38 @@ class frame extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tpp-frame" id="">
+            <div class="tpp-frame">
                 <slot></slot>
             </div>
         `;
         
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
-            :host .tpp-frame, * > *{
-                position: fixed;
-                box-sizing: border-box;
-
-                font-family: Arial, Helvetica, sans-serif;
-            }
-
             /* To-B框架 */
-            :host([tppToB-00]) .tpp-frame{
+            :host([ToB-00]) .tpp-frame {
                 display: grid;
-                grid-template-columns: 260px auto;
-                grid-template-rows: 56px auto;
+                grid-template-columns: var(--sidebar-width,260px) auto;
+                grid-template-rows: var(--topnav-height,56px) auto;
 
-                grid-template-areas:
-                'top top'
-                'side main';
+                grid-template-areas: 
+                    var(--frame-template-areas,
+                        'top top'
+                        'side main'
+                        );
             }
 
             :host([test-mod]) .tpp-frame{
-                border: 16px solid blue;
+                border: var(--test-mod,12px solid red);
             }
 
             .tpp-frame {
-                width: 100%;
-                height: 100%;
+                width: var(--frame-width,100%);
+                height: var(--frame-height,100%);
                 margin: 0;
                 padding: 0;
 
                 background-color: var(--frame-color, #ffffff);
+                box-sizing: border-box;
             }
         `
         

@@ -3,12 +3,58 @@
     --topnav-color: #0080ff;
     --sidebar-color: #03a6ff;
     --main-color: #a3daff;
-    --card-color:  #90d0fe;
+    --card-color:  #90e4fe;
 }
 
-.theme-green {
-    --frame-color: #D7FFF1;
-    --topnav-color: #5F8D7D;
-    --sidebar-color: #77AF9C;
-    --main-color: #8CD790;
+.theme-new {
+    --frame-color: #ffffff;
+    --topnav-color: #2D033B;
+    --sidebar-color: #810CA8;
+    --main-color: #C147E9;
+    --card-color:  #E5B8F4 ;
 }
+
+.theme-new2 {
+    --frame-color: #ffffff;
+    --topnav-color: #472183;
+    --sidebar-color: #4b56d28e;
+    --main-color: #F1F6F5;
+    --card-color:  #82C3EC;
+}
+
+* {
+    --frame-width: 100%;
+    --frame-height: 100%;
+
+    --topnav-width: 100%;
+    --topnav-height: 56px;
+
+    --sidebar-width: 256px;
+    --sidebar-height: 100%;
+
+    --main-width: 100%;
+    --main-height: 100%;
+    --main-padding: 8px;
+
+    --frame-template-areas:
+        'side top'
+        'side main';
+}
+
+ /* --test-mod: 12px solid red; */
+
+/* padding: 0;
+margin: 0; */
+
+/* 
+https://colorhunt.co/ 
+https://www.bfa.com.tw/blog/color-tools
+*/
+
+/* 
+標準:
+--topnav-height: 56px; 4*14
+--topnav-usericon: 40px; 4*14 - 16
+--sidebar-width: 256px; 4*64
+
+ */

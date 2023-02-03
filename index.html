@@ -10,19 +10,17 @@
 </head>
 
 <body>
-    <tpp-frame tppToB-00 class="theme-blue">
+    <tpp-frame ToB-00 class="theme-new2">
         <tp-topnav>
-            <tp-topnav-item>
-                {{version}}
-            </tp-topnav-item>
+            <tp-usericon>
+                
+            </tp-usericon>
         </tp-topnav>
-        <tp-sidebar onclick="tpSetTheme('theme-green')">
+        <tp-sidebar>
             
         </tp-sidebar>
-        <tp-main grid>
-            <tp-card tp-for="">
-                I am {{name}}
-            </tp-card>
+        <tp-main>
+
         </tp-main>
     </tpp-frame>
 
@@ -35,22 +33,13 @@
     <!-- TonyaPuzzle Plus 框架 -->
     <script type="module" src="./TonyaPuzzlePlus/tpp.js"></script>
 
-    <!-- TonyaPuzzle Plus 框架 -->
-    <link rel="stylesheet" href="./TonyaPuzzle/tp.css">
+    <!-- TonyaPuzzle 樣式 -->
+    <link rel="stylesheet" href="../TonyaPuzzle/tp.css">
 
     <script>
         data("tpp-frame", {
             version: "v0.0.1",
             name:"Anson"
-            // card: [
-            //     {item:"1"},
-            //     {item:"2"},
-            //     {item:"3"},
-            //     {item:"4"},
-            //     {item:"5"},
-            //     {item:"6"},
-            //     {item:"7"},
-            //     {item:"8"}
         });
     </script>
 

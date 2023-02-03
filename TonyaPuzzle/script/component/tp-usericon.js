@@ -1,4 +1,4 @@
-class sidebar extends HTMLElement {
+class usericon extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -7,27 +7,21 @@ class sidebar extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tp-sidebar">
+            <div class="tp-usericon">
                 <slot></slot>
             </div>
         `
         this.styles = document.createElement('style');
-        this.styles.innerHTML = `
-            :host {
-                grid-area: side;
-            }
-
-            :host([test-mod]) .tp-sidebar {
-                border: var(--test-mod,12px solid red);
-            }
-
-            .tp-sidebar {
-                width: var(--sidebar-width, 256px);
-                height: var(--sidebar-height, 100%);
+        this.styles.innerHTML = ` 
+            .tp-userion {
+                width: var(--usericon-width, 40px);
+                height: var(--usericon-height, 40px);
                 padding: 0;
                 margin: 0;
 
-                background-color: var(--sidebar-color, #bebebe);
+                border-radius: 50%;
+
+                background-color: var(--usericon-color, #8C8C8C);
                 box-sizing: border-box;
             }
         `
@@ -37,4 +31,4 @@ class sidebar extends HTMLElement {
     }
 }
 
-customElements.define('tp-sidebar', sidebar);
+customElements.define('tp-usericon', usericon);

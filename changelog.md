@@ -1,7 +1,8 @@
 # Change Log(更新日志)
 ## 2023-02-03 (v.0.0.3)
 - [新增] TemplateSyntax(模板語法) 的 Arithmetic operators Interpolations(算術運算插值)
-- 
+- [整理] 組件Api
+
 ## 2023-02-02 (v.0.0.2)
 - [新增] Tack List (任務列表)文件
 - [新增] tp-crad組件
