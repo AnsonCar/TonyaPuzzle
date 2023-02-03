@@ -21,9 +21,9 @@
 - ### **TonyaPuzzle Chart**
 - ### **TonyaPuzzle (Web Builder Framework)
 
-查看 [Change Log(更新日志)](changelog.md)  
-查看 [Tack List(任務列表)](TackLis.md)
-查看 [參考資料](ReferenceData.md)
+查看 [Change Log(更新日志)](./doc/changelog.md)  
+查看 [Tack List(任務列表)](./doc/TackLis.md)
+查看 [參考資料](./doc/ReferenceData.md)
 
 <!-- (- 4的倍數，偶數思維) -->
 <!-- 模組化 -->

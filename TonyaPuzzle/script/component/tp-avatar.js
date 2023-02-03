@@ -1,4 +1,4 @@
-class usericon extends HTMLElement {
+class avatar extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -7,21 +7,21 @@ class usericon extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tp-usericon">
+            <div class="tp-avatar">
                 <slot></slot>
             </div>
         `
         this.styles = document.createElement('style');
         this.styles.innerHTML = ` 
-            .tp-userion {
-                width: var(--usericon-width, 40px);
-                height: var(--usericon-height, 40px);
+            .tp-avatar {
+                width: var(--avatar-width, 40px);
+                height: var(--avatar-height, 40px);
                 padding: 0;
                 margin: 0;
 
                 border-radius: 50%;
 
-                background-color: var(--usericon-color, #8C8C8C);
+                background-color: var(--avatar-color, #8C8C8C);
                 box-sizing: border-box;
             }
         `
@@ -31,4 +31,4 @@ class usericon extends HTMLElement {
     }
 }
 
-customElements.define('tp-usericon', usericon);
+customElements.define('tp-avatar', avatar);

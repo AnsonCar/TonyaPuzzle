@@ -22,25 +22,6 @@
     --card-color:  #82C3EC;
 }
 
-* {
-    --frame-width: 100%;
-    --frame-height: 100%;
-
-    --topnav-width: 100%;
-    --topnav-height: 56px;
-
-    --sidebar-width: 256px;
-    --sidebar-height: 100%;
-
-    --main-width: 100%;
-    --main-height: 100%;
-    --main-padding: 8px;
-
-    --frame-template-areas:
-        'side top'
-        'side main';
-}
-
  /* --test-mod: 12px solid red; */
 
 /* padding: 0;

@@ -17,7 +17,7 @@ class topnav extends HTMLElement {
                 grid-area: top;
             }
             
-            :host *{
+            :host .tp-topnav {
                 display: flex;
                 align-items: center;
             }

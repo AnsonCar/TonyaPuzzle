@@ -1,4 +1,10 @@
 # Change Log(更新日志)
+[back](../README.md)
+
+## 2023-02-04 (v.0.0.4)
+- [新增] doc文件夾放置 相關文件，很多文件太亂。
+- [新增] 組件 tp-avatar
+
 ## 2023-02-03 (v.0.0.3)
 - [新增] TemplateSyntax(模板語法) 的 Arithmetic operators Interpolations(算術運算插值)
 - [整理] 組件Api
