@@ -15,6 +15,8 @@ class main extends HTMLElement {
         this.styles.innerHTML = `
             :host {
                 grid-area: main;
+                // grid-column: 2/3;
+                // grid-row: 2/3;
             }
 
             :host([grid]) .tp-main{
@@ -24,16 +26,16 @@ class main extends HTMLElement {
             }
 
             :host([test-mod]) .tp-main{
-                border: var(--test-mod,12px solid red);
+                border: var(--test-mod);
             }
             
             .tp-main {
-                width: var(--main-width,100%);
-                height: var(--main-height,100%);
-                padding: var(--main-padding,8px);
+                width: var(--main-width);
+                height: var(--main-height);
+                padding: var(--main-padding);
                 margin: 0;
-
-                background-color: var(--main-color, #D9D9D9);
+                
+                background-color: var(--main-color);
                 box-sizing: border-box;
             }
         `

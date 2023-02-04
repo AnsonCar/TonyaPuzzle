@@ -14,12 +14,12 @@ class topnavitem extends HTMLElement {
         this.styles = document.createElement('style');
         this.styles.innerHTML = ` 
             .tp-topnav-item {
-                width: var(--topnav-width, 56px);
-                height: var(--topnav-height, 56px);
-                padding: 8px;
+                width: var(--topnav-item-width);
+                height: var(--topnav-item-height);
+                padding: var(--topnav-item-padding);
                 margin: 0;
 
-                // background-color: var(--topnav-item-color, #8C8C8C);
+                background-color: var(--topnav-item-color);
                 box-sizing: border-box;
             }
         `

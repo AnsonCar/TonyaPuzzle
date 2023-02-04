@@ -10,16 +10,17 @@ class frame extends HTMLElement {
             <div class="tpp-frame">
                 <slot></slot>
             </div>
-        `;
+        `
         
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
             /* To-B框架 */
+            
             :host([ToB-00]) .tpp-frame {
                 display: grid;
-                grid-template-columns: var(--sidebar-width,260px) auto;
-                grid-template-rows: var(--topnav-height,56px) auto;
-
+                grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+                grid-template-rows: var(--topnav-height) minmax(0, 1fr);
+                
                 grid-template-areas: 
                     var(--frame-template-areas,
                         'top top'
@@ -27,17 +28,23 @@ class frame extends HTMLElement {
                         );
             }
 
+            :host([ToB-01]) .tpp-frame {
+                display: grid;
+                grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+                grid-template-rows: var(--topnav-height) minmax(0, 1fr);
+            }
+            
             :host([test-mod]) .tpp-frame{
-                border: var(--test-mod,12px solid red);
+                border: var(--test-mod);
             }
 
             .tpp-frame {
-                width: var(--frame-width,100%);
-                height: var(--frame-height,100%);
+                width: var(--frame-width);
+                height: var(--frame-height);
                 margin: 0;
                 padding: 0;
-
-                background-color: var(--frame-color, #ffffff);
+                // position: fixed;
+                background-color: var(--frame-color);
                 box-sizing: border-box;
             }
         `

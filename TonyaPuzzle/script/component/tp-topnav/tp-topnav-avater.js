@@ -14,14 +14,14 @@ class avatar extends HTMLElement {
         this.styles = document.createElement('style');
         this.styles.innerHTML = ` 
             .tp-avatar {
-                width: var(--avatar-width, 40px);
-                height: var(--avatar-height, 40px);
+                width: var(--avatar-width);
+                height: var(--avatar-height);
                 padding: 0;
-                margin: 0px;
+                margin: 0;
 
                 border-radius: 50%;
 
-                background-color: var(--avatar-color, #8C8C8C);
+                background-color: var(--avatar-color);
                 box-sizing: border-box;
             }
         `
@@ -31,4 +31,4 @@ class avatar extends HTMLElement {
     }
 }
 
-customElements.define('tp-avatar', avatar);
+customElements.define('tp-topnav-avatar', avatar);

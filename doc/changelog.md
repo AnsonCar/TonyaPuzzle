@@ -1,11 +1,17 @@
 # Change Log(更新日志)
+## 2023-02-05 (v.0.0.5)
+- [新增] component組件文件，記錄所有組件資料
+- [整理] componentexport文件方式
+- [整理] script/component文件
+- [修正] tpp-frame 內容 溢出問題
+- [整理] ReferenceData文件
 
 ## 2023-02-04 (v.0.0.4)
 - [新增] doc文件夾放置 相關文件，很多文件太亂。
 - [新增] 組件 tp-avatar
 - [整理] tp組件庫
 - [新增] 組件 tp-topnav-item 
-- [進修] Dom及js
+- [優化] 組件themeAPI 及 sizeAPI
 
 ## 2023-02-03 (v.0.0.3)
 - [新增] TemplateSyntax(模板語法) 的 Arithmetic operators Interpolations(算術運算插值)

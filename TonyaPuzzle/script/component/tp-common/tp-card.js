@@ -1,4 +1,4 @@
-class topnav extends HTMLElement {
+class card extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -7,34 +7,23 @@ class topnav extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tp-topnav">
+            <div class="tp-card">
                 <slot></slot>
             </div>
         `
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
-            :host {
-                grid-area: top;
-                // grid-column: 1/4;
-                // grid-row: 1/4;
-            }
-            
-            :host .tp-topnav {
-                display: flex;
-                align-items: center;
-            }
-            
-            :host([test-mod]) .tp-topnav {
+            :host([test-mod]) .tp-card{
                 border: var(--test-mod);
             }
             
-            .tp-topnav {
-                width: var(--topnav-width);
-                height: var(--topnav-height);
+            .tp-card {
+                width: var(--card-widht);
+                height: var(--card-height);
                 padding: 0;
                 margin: 0;
 
-                background-color: var(--topnav-color);
+                background-color: var(--card-color);
                 box-sizing: border-box;
             }
         `
@@ -44,4 +33,4 @@ class topnav extends HTMLElement {
     }
 }
 
-customElements.define('tp-topnav', topnav);
+customElements.define('tp-card', card);

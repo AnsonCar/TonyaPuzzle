@@ -7,7 +7,10 @@
     <title>DragDrop</title>
 </head>
 <body>
-    <tpp-frame ToB-01>
+    <tpp-frame ToB-00 class="theme-new2">
+        <tp-topnav>
+
+        </tp-topnav>
         <tp-sidebar>
             <div class="item">
                 <div class="item-box">
@@ -33,11 +36,11 @@
                 </div>
             </div>
         </tp-sidebar>
-        <tp-main>
+        <!-- <tp-main>
             <iframe src="inHTML.html" frameborder="0">
 
             </iframe>
-        </tp-main>
+        </tp-main> -->
     </tpp-frame>
     
     <style>
@@ -71,5 +74,19 @@
     <script type="module" src="../TonyaPuzzlePlus/tpp.js"></script>
     <!-- TonyaPuzzle 樣式 -->
     <link rel="stylesheet" href="../TonyaPuzzle/tp.css">
+
+    <script>
+        function checkframeHeight(){
+            let winHeight ;
+            let canframeHeight = document.querySelector("body").clientHeight;
+            let notframeHeight = document.querySelector("body").offsetHeight;
+            let allframeHeiht = document.querySelector("body").scrollHeight;
+            console.log(canframeHeight);
+            console.log(notframeHeight);
+            console.log(allframeHeiht);
+            // document.querySelector("body").height = canframeHeight;
+        }
+        checkframeHeight();
+    </script>
 </body>
 </html>

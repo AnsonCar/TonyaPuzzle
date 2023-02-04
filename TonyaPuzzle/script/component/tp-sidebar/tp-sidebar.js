@@ -15,20 +15,34 @@ class sidebar extends HTMLElement {
         this.styles.innerHTML = `
             :host {
                 grid-area: side;
+                // grid-column: 1/2;
+                // grid-row: 2/3;
             }
 
+            :host .tp-sidebar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: center;
+            }
             :host([test-mod]) .tp-sidebar {
-                border: var(--test-mod,12px solid red);
+                border: var(--test-mod);
             }
 
             .tp-sidebar {
-                width: var(--sidebar-width, 256px);
-                height: var(--sidebar-height, 100%);
-                padding: 0;
+                width: var(--sidebar-width);
+                height: var(--sidebar-height);
+                padding: 8px;
                 margin: 0;
 
-                background-color: var(--sidebar-color, #bebebe);
+                overflow: auto;
+                
+                background-color: var(--sidebar-color);
                 box-sizing: border-box;
+            }
+
+            :host([noScrollbar]) .tp-sidebar::-webkit-scrollbar {
+                display:none;
             }
         `
 

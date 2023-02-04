@@ -1,4 +1,4 @@
-class card extends HTMLElement {
+class itembox extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -7,30 +7,31 @@ class card extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tp-card">
+            <div class="tp-item-box">
                 <slot></slot>
             </div>
         `
+
         this.styles = document.createElement('style');
         this.styles.innerHTML = `
-            :host([test-mod]) .tp-card{
-                border: 12px solid red;
+            :host([test-mod]) .tp-item-box{
+                border: var(--test-mod);
             }
-            
-            .tp-card {
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                margin: 0;
 
-                background-color: var(--card-color, #D9D9D9);
+            .tp-item-box {
+                width: var(--item-box-width);
+                height: var(--item-box-height);
+                margin: var(--item-box-margin);
+                padding: 0;
+
+                background-color: var(--item-box-color);
                 box-sizing: border-box;
             }
         `
-
+        
         this.shadowRoot.appendChild(this.template.content);
         this.shadowRoot.appendChild(this.styles);
     }
 }
 
-customElements.define('tp-card', card);
+customElements.define('tp-item-box', itembox);

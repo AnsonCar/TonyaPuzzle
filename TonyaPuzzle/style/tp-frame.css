@@ -1,27 +1,51 @@
+/* 基本組件 */
 * {
+    /* frame */
     --frame-width: 100%;
     --frame-height: 100%;
 
+    --frame-template-areas:
+    'side top'
+    'side main';
+
+    /* tponav */
     --topnav-width: 100%;
     --topnav-height: 56px;
 
-    
+    /* sidebar */
     --sidebar-width: 256px;
     --sidebar-height: 100%;
 
+    /* main */
     --main-width: 100%;
     --main-height: 100%;
     --main-padding: 8px;
-
-    --frame-template-areas:
-        'side top'
-        'side main';
 }
 
 /* topnav 組件 */
 * { 
+    /* topnav-item */
+    --topnav-item-width: --topnav-width;
+    --topnav-item-height: --topnav-height;
+    --topnav-item-padding:8px;
+
+    /* 頭像 avatar */
     --avatar-width: 40px;
     --avatar-height:40px;
+}
 
-    
+/* 通用common 組件 */
+* {
+    /* item-box */
+    --item-box-width: 200px;
+    --item-box-height: 200px; 
+    --item-box-margin: 8px;
+    /* card */
+    --card-widht: 100%;
+    --card-height: 100%;
+}
+
+/* for test */
+* {
+    --test-mod: 12px solid red;    
 }
