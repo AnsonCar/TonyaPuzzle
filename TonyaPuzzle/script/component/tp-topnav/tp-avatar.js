@@ -17,7 +17,7 @@ class avatar extends HTMLElement {
                 width: var(--avatar-width, 40px);
                 height: var(--avatar-height, 40px);
                 padding: 0;
-                margin: 0;
+                margin: 0px;
 
                 border-radius: 50%;
 
