@@ -1,9 +1,12 @@
 # Change Log(更新日志)
 ## 2023-02-05 (v.0.0.5)
+- [暫停] 更新一至兩星期
+
+## 2023-02-05 (v.0.0.5)
 - [新增] component組件文件，記錄所有組件資料
-- [整理] componentexport文件方式
+- [整理] component export文件方式
 - [整理] script/component文件
-- [修正] tpp-frame 內容 溢出問題
+- [修正] tpp-frame 子元素 溢出問題
 - [整理] ReferenceData文件
 
 ## 2023-02-04 (v.0.0.4)
