@@ -1,7 +1,12 @@
-![Logo](Logo/TonyaPuzzle_Logo02.png) 
+<center>
+<img src="Logo/TonyaPuzzle_Logo02.png" style="width:240px"/>
 
-# Tonya
->「讓**開發網頁**就像玩**拼圖**一樣**簡單**。」  
+# **TonyaPuzzle**
+
+「讓**開發網頁**就像玩**拼圖**一樣**簡單**。」
+
+</center>
+
 ## 理念
 讓用戶**更易上手**及**維護**網頁。  
 盡量**提供**及**簡化**網頁開發所需工具。  
