@@ -1,10 +1,7 @@
 <center>
 <img src="Logo/TonyaPuzzle_Logo02.png" style="width:240px"/>
-
-# **TonyaPuzzle**
-
-「讓**開發網頁**就像玩**拼圖**一樣**簡單**。」
-
+<h1>TonyaPuzzle</h1>
+<p>「讓**開發網頁**就像玩**拼圖**一樣**簡單**。」</p>
 </center>
 
 ## 理念
