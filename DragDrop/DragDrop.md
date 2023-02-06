@@ -8,6 +8,7 @@
 
 ## 參考資料
 - [HTML5 拖放（Drag 和 Drop）](https://www.runoob.com/html/html5-draganddrop.html)
+- [HTML5 拖放 w3S](https://www.w3school.com.cn/html/html5_draganddrop.asp)
 - [表單構成頁面](http://layui.pearadmin.com/)
 - [js生成txt文件](https://juejin.cn/post/6844903870972297230)
 - [GrapesJS](https://grapesjs.com/)

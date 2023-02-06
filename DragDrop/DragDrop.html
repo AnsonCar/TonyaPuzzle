@@ -12,46 +12,41 @@
 
         </tp-topnav>
         <tp-sidebar>
-            <tp-item-box>
+            <tp-item-box id="a" draggable="true" ondragstart="drag(event)">
                 
             </tp-item-box>
         </tp-sidebar>
-        <tp-main>
+        <tp-main id="b" ondrop="drop(event)" ondragover="allowDrop(event)" >
             <iframe src="inHTML.html" frameborder="0">
 
             </iframe>
         </tp-main>
     </tpp-frame>
-    
-    <style>
-        iframe {
-            width: 100%;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-            background-color: rgb(164, 230, 230);
-        }
 
-    </style>
+    <script type="text/javascript">
+        function allowDrop(ev)
+        {
+        ev.preventDefault();
+        }
+        
+        function drag(ev)
+        {
+        ev.dataTransfer.setData("Text",ev.target.id);
+        }
+        
+        function drop(ev)
+        {
+        ev.preventDefault();
+        var data=ev.dataTransfer.getData("Text");
+        ev.target.appendChild(document.getElementById(data));
+        }
+        </script>
+
     <!-- TonyaPuzzle UI組件 -->
     <script type="module" src="../TonyaPuzzle/tp.js"></script>
     <!-- TonyaPuzzle Plus 框架 -->
     <script type="module" src="../TonyaPuzzlePlus/tpp.js"></script>
     <!-- TonyaPuzzle 樣式 -->
     <link rel="stylesheet" href="../TonyaPuzzle/tp.css">
-
-    <script>
-        function checkframeHeight(){
-            let winHeight ;
-            let canframeHeight = document.querySelector("body").clientHeight;
-            let notframeHeight = document.querySelector("body").offsetHeight;
-            let allframeHeiht = document.querySelector("body").scrollHeight;
-            console.log(canframeHeight);
-            console.log(notframeHeight);
-            console.log(allframeHeiht);
-            // document.querySelector("body").height = canframeHeight;
-        }
-        checkframeHeight();
-    </script>
 </body>
 </html>

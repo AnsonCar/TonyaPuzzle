@@ -3,11 +3,11 @@
 
 
 <p align="center">
-    <img width="240px" src="Logo/TonyaPuzzle_Logo02.png">
+    <img width="192px" src="Logo/TonyaPuzzle_Logo02.png">
 </p>
 <h1 align="center"><b>TonyaPuzzle</b></h1>
 
-<p align="center">「讓**開發網頁**就像玩**拼圖**一樣**簡單**。」</p>
+<p align="center">「讓<b>開發網頁</b>就像玩<b>拼圖</b>一樣<b>簡單</b>。」</p>
 
 ## 理念
 讓用戶**更易上手**及**維護**網頁。  

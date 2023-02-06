@@ -17,7 +17,7 @@
 - [優化] 組件themeAPI 及 sizeAPI
 
 ## 2023-02-03 (v.0.0.3)
-- [新增] TemplateSyntax(模板語法) 的 Arithmetic operators Interpolations(算術運算插值)
+- [新增] TemplateSyntax(模板語法) 的 Arithmetic operators (待工)Interpolations(算術運算插值)
 - [整理] 組件Api
 
 ## 2023-02-02 (v.0.0.2)
