@@ -1,3 +1,5 @@
+![Logo](Logo/TonyaPuzzle_Logo02.png) 
+
 # Tonya
 >「讓**開發網頁**就像玩**拼圖**一樣**簡單**。」  
 ## 理念
