@@ -1,0 +1,25 @@
+{
+  "name": "tonyapuzzle",
+  "version": "0.0.6",
+  "description": "Making web development as simple as piecing together a puzzle.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "tp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnsonCar/TonyaPuzzle.git"
+  },
+  "keywords": [
+    "TonyaPuzzle"
+  ],
+  "author": "AnsonCar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnsonCar/TonyaPuzzle/issues"
+  },
+  "homepage": "https://github.com/AnsonCar/TonyaPuzzle#readme"
+}
