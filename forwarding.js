@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
-目标服务器的地址和端口
+// 目标服务器的地址和端口
 const target = {
   host: '127.0.0.1',
   port: 3000
