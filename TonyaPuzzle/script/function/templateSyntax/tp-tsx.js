@@ -4,7 +4,7 @@ function data(elementName, dataSet) {
     let elementText = document.querySelector(elementName).innerHTML; 
     let elementLoop = checkLoop();
     console.log(elementLoop);
-
+    
     // 2. 取得模板變量及名稱
     // 2.1 文字模板 正規表達式: {{}}內容為 英文或數字
     let textTemplate = checkTemplate(/{{[\u4E00-\u9FA5A-Za-z0-9_]*}}/g);
