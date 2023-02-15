@@ -39,7 +39,7 @@ const server2 = http.createServer((req, res) => {
 });
 
 // 监听端口
-server.listen(3000, '8.210.138.160', () => {
+server.listen(3000, '0.0.0.0', () => {
   console.log('Server running on http://8.210.138.160:3000/');
 });
 
