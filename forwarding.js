@@ -18,15 +18,15 @@ const server = http.createServer((req, res) => {
 });
 
 // 目标服务器的地址和端口
-const target = {
-  host: '127.0.0.1',
-  port: 3000
-};
-
 // const target = {
-//   host: '192.168.50.171',
+//   host: '127.0.0.1',
 //   port: 3000
 // };
+
+const target = {
+  host: '8.210.138.160',
+  port: 3000
+};
 
 // 新建一个代理服务器
 const proxy = httpProxy.createProxyServer();
@@ -39,8 +39,8 @@ const server2 = http.createServer((req, res) => {
 });
 
 // 监听端口
-server.listen(3000, '0.0.0.0', () => {
-  console.log('Server running on http://0.0.0.0:3000/');
+server.listen(3000, '8.210.138.160', () => {
+  console.log('Server running on http://8.210.138.160:3000/');
 });
 
 // console.log('Server running at http://localhost:8080/');
