@@ -3,7 +3,9 @@
 </p>
 <h1 align="center"><b>TonyaPuzzle</b></h1>
 
+<!-- 讓網頁開發就像拼圖一樣簡單 -->
 <p align="center">「讓<b>網頁開發</b>就像<b>拼圖</b>一樣<b>簡單</b>。」</p>
+<p align="center"> "Make Web Development as Easy as Piecing Together a Puzzle" </p>
 
 ## 理念
 讓用戶**更易上手**及**維護**網頁。  
