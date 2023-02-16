@@ -89,6 +89,8 @@
 ## Other
 - [正则表达式在线测试](https://c.runoob.com/front-end/854/)
 - [grapesjs-生成web](https://grapesjs.com/)
+- [[Mac] Homebrew安裝tree(樹狀資料夾目錄結構)](https://quietbo.com/2021/11/10/mac-homebrew%E5%AE%89%E8%A3%9Dtree%E6%A8%B9%E7%8B%80%E8%B3%87%E6%96%99%E5%A4%BE%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B/)
+
 ### vscode插件
 - [Extension API](https://code.visualstudio.com/api)
 - [vscode插件开发教程](https://www.jianshu.com/p/e642856f6044)
@@ -96,5 +98,5 @@
 ### QRcode
 - [數位科技系列：再認識QR Code的原理與應用](https://medium.com/artech-interpreter/%E6%95%B8%E4%BD%8D%E7%A7%91%E6%8A%80%E7%B3%BB%E5%88%97-%E5%86%8D%E8%AA%8D%E8%AD%98qr-code%E7%9A%84%E5%8E%9F%E7%90%86%E8%88%87%E6%87%89%E7%94%A8-b2b9eb8f0ef9)
 
-[back]([back](https://github.com/AnsonCar/Tonya))
+[back](https://github.com/AnsonCar/Tonya)
 
