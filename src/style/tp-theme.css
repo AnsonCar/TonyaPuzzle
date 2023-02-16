@@ -23,6 +23,22 @@
     --sonic-silver: #6c757dff;
 }
 
+.theme-new {
+    --frame-color: #ffffff;
+    --topnav-color: #2D033B;
+    --sidebar-color: #810CA8;
+    --main-color: #C147E9;
+    --card-color:  #E5B8F4 ;
+}
+
+.theme-new2 {
+    --frame-color: #ffffff;
+    --topnav-color: #472183;
+    --sidebar-color: #4b56d28e;
+    --main-color: #F1F6F5;
+    --card-color:  #82C3EC;
+}
+
 /* https://colorhunt.co/ */
 /* https://coolors.co/palettes/trending */
 /* https://www.bfa.com.tw/blog/color-tools */
