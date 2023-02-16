@@ -1,0 +1,28 @@
+{
+  "name": "tonyapuzzle",
+  "version": "1.0.0",
+  "description": "Make Web Development as Easy as Piecing Together a Puzzle",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnsonCar/Tonya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnsonCar/Tonya/issues"
+  },
+  "homepage": "https://github.com/AnsonCar/Tonya#readme",
+  "devDependencies": {
+    "vite": "^4.1.1"
+  }
+}
