@@ -2,21 +2,23 @@
 :root {
     /* 基本框架 */
     --frame-color: #ffffff;
-
     --topnav-color: #212529ff;
     --sidebar-color: #343a40ff;
     --main-color: #495057ff;
     
     /* topnav 組件 */
-    /* --topnav-item-color:; */
+    --topnav-item-color: ;
     --avatar-color: #e9ecefff;
+    --topnav-item-text-color: ;
+    --topnav-text-text-color: #e9ecefff;
+    --topnav-text-color: ;
 
     /* 通用comon 組件 */
     --item-box-color: #f8f9faff;
     --card-color: #f8f9faff;
-
-
-
+    --Logo-color: ;
+    --Logo-text-color: #e9ecefff;
+    
     --gainsboro: #dee2e6ff;
     --light-gray: #ced4daff;
     --cadet-blue-crayola: #adb5bdff;

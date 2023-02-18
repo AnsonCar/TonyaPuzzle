@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <tp-frame ToB-00 id="a">
+    <tp-frame ToB-00>
         <tp-topnav sb>
             <tp-logo c>
                 {{LOGO}}
@@ -28,17 +28,17 @@
 
         </tp-sidebar>
         <tp-main>
-            <tp-item-box id="a" tpfor="a in box">
+            <tp-item-box tpfor="a in box">
                 {{version}}
             </tp-item-box>
         </tp-main>
     </tp-frame>
-
+    <!-- .getAttribute("tpfor"); -->
     <!-- TonyaPuzzle UI組件 -->
-    <script type="module" src="./src/main.js"></script>
-    <link rel="stylesheet" href="./src/main.css">
+    <script type="module" src="../main.js"></script>
+    <link rel="stylesheet" href="../main.css">
     <!-- 插值 -->
-    <script src="./src/tsx/tp-tsx.js"></script>
+    <script src="../tp-tsx.js"></script>
     <script>
         data("tp-frame", {
             version: "v0.0.6",

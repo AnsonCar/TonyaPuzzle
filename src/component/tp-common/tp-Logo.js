@@ -1,4 +1,4 @@
-class topnavitem extends HTMLElement {
+class Logo extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -7,49 +7,49 @@ class topnavitem extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tp-topnav-item">
+            <div class="tp-logo">
                 <slot></slot>
             </div>
         `
         this.styles = document.createElement('style');
         this.styles.innerHTML = ` 
-            :host([L]) .tp-topnav-item {
+            :host([L]) .tp-logo {
                 display: flex;
                 align-items: center;
                 flex-flow: row nowrap; 
                 justify-content: flex-end;
             }
 
-            :host([R]) .tp-topnav-item {
+            :host([R]) .tp-logo {
                 display: flex;
                 align-items: center;
                 flex-flow: row nowrap; 
                 justify-content: flex-start;
             }
 
-            :host([C]) .tp-topnav-item {
+            :host([C]) .tp-logo {
                 display: flex;
                 align-items: center;
                 flex-flow: row nowrap; 
                 justify-content: center;
             }
 
-            :host([sb]) .tp-topnav-item {
+            :host([sb]) .tp-logo {
                 display: flex;
                 align-items: center;
                 flex-flow: row nowrap; 
                 justify-content: space-between;
             }
 
-            .tp-topnav-item {      
-                width: var(--topnav-item-width);
-                height: var(--topnav-item-height);
-                padding: var(--topnav-item-padding);
+            .tp-logo {      
+                width: var(--Logo-width);
+                height: var(--Logo-height);
+                padding: var(--Logo-padding);
                 margin: 0;
 
-                font-size: var(--topnav-item-text-size);
-                color: var(--topnav-item-text-color);
-                background-color: var(--topnav-item-color);
+                font-size: var(--Logo-text-size);
+                color: var(--Logo-text-color);
+                background-color: var(--Logo-color);
                 box-sizing: border-box;
             }
         `
@@ -59,4 +59,4 @@ class topnavitem extends HTMLElement {
     }
 }
 
-customElements.define('tp-topnav-item', topnavitem);
+customElements.define('tp-logo', Logo);

@@ -1,9 +1,9 @@
-/* 基本組件 */
 * {
+    /* 基本組件 */
     /* frame */
-    --frame-width: 100%;
+    --frame-min-width: 375px;
+    --frame-width:  100%;
     --frame-height: 100%;
-
     --frame-template-areas:
     'top top'
     'side main';
@@ -20,29 +20,37 @@
     --main-width: 100%;
     --main-height: 100%;
     --main-padding: 8px;
-}
 
-/* topnav 組件 */
-* { 
+    /* topnav 組件 */
     /* topnav-item */
-    --topnav-item-width: --topnav-width;
-    --topnav-item-height: --topnav-height;
+    --topnav-item-width: ;
+    --topnav-item-height: ;
     --topnav-item-padding:8px;
-
+    --topnav-item-text-size:28px;
     /* 頭像 avatar */
     --avatar-width: 40px;
     --avatar-height:40px;
-}
+    /* topnav-text */
+    --topnav-text-width: ;
+    --topnav-text-height: ;
+    --topnav-text-padding: 8px;
+    --topnav-text-text-size: 28px;
+    
 
-/* 通用common 組件 */
-* {
+
+    /* 通用common 組件 */
     /* item-box */
     --item-box-width: 200px;
-    --item-box-height: 200px; 
+    --item-box-height: 200px;
     --item-box-margin: 8px;
     /* card */
     --card-widht: 100%;
     --card-height: 100%;
+    /* Logo */
+    --Logo-width: var(--sidebar-width);
+    --Logo-height: var(--topnav-height);
+    --Logo-padding: 8px;
+    --Logo-text-size: 28px;
 }
 
 /* for test */

@@ -71,7 +71,7 @@ TonyaPuzzle
 - ### **TonyaPuzzle (Web Builder Framework)**
 
 ## 查閱更多
-查看 [使用指南](./docs/tp-guidebook.md)
+查看 [使用指南](./docs/tp-guidebook.md)  
 查看 [組件API總覧](./docs/component.md)  
 
 查看 [Change Log(更新日志)](./docs/changelog.md)  

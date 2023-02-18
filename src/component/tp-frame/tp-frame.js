@@ -7,7 +7,7 @@ class frame extends HTMLElement {
     connectedCallback() {
         this.template = document.createElement('template');
         this.template.innerHTML = `
-            <div class="tpp-frame">
+            <div class="tp-frame">
                 <slot></slot>
             </div>
         `
@@ -16,7 +16,7 @@ class frame extends HTMLElement {
         this.styles.innerHTML = `
             /* To-B框架 */
             
-            :host([ToB-00]) .tpp-frame {
+            :host([ToB-00]) .tp-frame {
                 display: grid;
                 grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
                 grid-template-rows: var(--topnav-height) minmax(0, 1fr);
@@ -28,17 +28,18 @@ class frame extends HTMLElement {
                         );
             }
 
-            :host([ToB-01]) .tpp-frame {
+            :host([ToB-01]) .tp-frame {
                 display: grid;
                 grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
                 grid-template-rows: var(--topnav-height) minmax(0, 1fr);
             }
             
-            :host([test-mod]) .tpp-frame{
+            :host([test-mod]) .tp-frame{
                 border: var(--test-mod);
             }
 
-            .tpp-frame {
+            .tp-frame {
+                min-width: var(--frame-min-width);
                 width: var(--frame-width);
                 height: var(--frame-height);
                 margin: 0;

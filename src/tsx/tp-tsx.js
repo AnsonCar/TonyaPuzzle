@@ -2,8 +2,6 @@
 function data(elementName, dataSet) {
     // 1. 取得標簽
     let elementText = document.querySelector(elementName).innerHTML; 
-    let elementLoop = checkLoop();
-    console.log(elementLoop);
     
     // 2. 取得模板變量及名稱
     // 2.1 文字模板 正規表達式: {{}}內容為 英文或數字
@@ -12,11 +10,6 @@ function data(elementName, dataSet) {
 
     // 返回元素
     changeText();
-
-    // 1.1 檢查 for loop 指令
-    function checkLoop() {
-        
-    }
     
     // 2. 取得 模板變量
     function checkTemplate(template) {

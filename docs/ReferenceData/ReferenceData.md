@@ -1,5 +1,7 @@
 # 參考資料
 ## [vite 打包工具](./vite.md)
+## [CSS grid 及 flex 布局](./GridFlex.md)
+## [Other](Other.md)
 
 ## Web Components
 - [Web Components 維基百科](https://zh.wikipedia.org/zh-tw/Web%E7%BB%84%E4%BB%B6)
@@ -20,15 +22,7 @@
 - [多方法解决设置width:100%再设置margin或padding溢出的问题](https://blog.csdn.net/weixin_34281537/article/details/91898089)
 - [css之伪类hover改变自身、子元素、其他元素的样式](https://juejin.cn/post/7023927926215311397)
 - [滑動條 ::-webkit-scrollbar](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::-webkit-scrollbar)
-
-### flex
-- [圖解：CSS Flex 屬性一點也不難](https://www.casper.tw/css/2017/07/21/css-flex/)
-### grid
-- [CSS grid-area 属性](https://www.w3school.com.cn/cssref/pr_grid-area.asp)
-- [grid布局 内容撑开网格的问题 overflow:scrool 无法看到全部内容的问题](https://blog.csdn.net/a250758092/article/details/81700913)
-- **[解决 grid 布局 item 被子元素撑开的问题](https://my.oschina.net/Cubicluo/blog/5356233)**
-- [CSS3中的grid布局（网格布局）](https://blog.csdn.net/weixin_45065754/article/details/123984208?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-123984208-blog-106813864.pc_relevant_3mothn_strategy_recovery&spm=1001.2101.3001.4242.2&utm_relevant_index=4)
-- 
+ 
 ---
 ## JavaScript / DOM
 - [JavaScript Array 对象](https://www.runoob.com/jsref/jsref-obj-array.html)
@@ -86,10 +80,6 @@
 - [ICON设计规范之图标尺寸](https://www.woshipm.com/pd/4482973.html)
 - [Choosing the Right Size and Format for Icons](https://blog.icons8.com/articles/choosing-the-right-size-and-format-for-icons/)
 ---
-## Other
-- [正则表达式在线测试](https://c.runoob.com/front-end/854/)
-- [grapesjs-生成web](https://grapesjs.com/)
-- [[Mac] Homebrew安裝tree(樹狀資料夾目錄結構)](https://quietbo.com/2021/11/10/mac-homebrew%E5%AE%89%E8%A3%9Dtree%E6%A8%B9%E7%8B%80%E8%B3%87%E6%96%99%E5%A4%BE%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B/)
 
 ### vscode插件
 - [Extension API](https://code.visualstudio.com/api)

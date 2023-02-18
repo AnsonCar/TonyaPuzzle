@@ -25,6 +25,10 @@ class main extends HTMLElement {
                 gap: 16px;
             }
 
+            :host .tp-main{
+                display: flex;
+            }
+
             :host([test-mod]) .tp-main{
                 border: var(--test-mod);
             }
