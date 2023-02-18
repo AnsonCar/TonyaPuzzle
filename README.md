@@ -24,10 +24,6 @@ TonyaPuzzle
 │
 ├── README.md
 │
-├── TonyaPuzzleUI 組件庫（使用vite打包）
-│   ├── assets
-│   └── index.html
-│
 ├── docs 文檔
 │   ├── ModuleStandard.md 組件規範
 │   ├── ReferenceData 參考資料
@@ -53,10 +49,11 @@ TonyaPuzzle
 
 ```
 
-<!-- ## 使用
+## 使用
+### 下載
 ```
-
-``` -->
+git clone https://github.com/AnsonCar/TonyaPuzzle.git
+```
 
 ## 內容包括
 ### **TonyaPuzzleUI**
