@@ -1,7 +1,9 @@
 # 參考資料
+## [JavaScript Framework (JS框架)](./Framework.md)
 ## [vite 打包工具](./vite.md)
 ## [CSS grid 及 flex 布局](./GridFlex.md)
 ## [Other](Other.md)
+
 
 ## Web Components
 - [Web Components 維基百科](https://zh.wikipedia.org/zh-tw/Web%E7%BB%84%E4%BB%B6)
@@ -57,20 +59,6 @@
 - [Polymer 簡介](https://ithelp.ithome.com.tw/articles/10156148)
 ### Check適合行動裝置瀏覽
 - [google mobile friendly](https://search.google.com/test/mobile-friendly)
----
-## JS框架
-### Vue
-- [模板語法Template Syntax – 插值 v-once、v-html](https://ithelp.ithome.com.tw/articles/10270131)
-- [菜鳥-Vue3 模板语法](https://www.runoob.com/vue3/vue3-template-syntax.html)
-- [Vue-模板语法](https://cn.vuejs.org/guide/essentials/template-syntax.html)
-- [Vue.js 循环语句](https://www.runoob.com/vue2/vue-loop.html)
-
-### AngularJS
-- [菜鳥-AngularJS 表达式 ](https://www.runoob.com/angularjs/angularjs-expressions.html)
-- [菜鳥-Angular 2 模板语法](https://www.runoob.com/angularjs2/angularjs2-template-syntax.html)
-
-### React
-- []()
 
 ---
 ## 設計

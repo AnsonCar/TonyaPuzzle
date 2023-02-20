@@ -19,10 +19,32 @@ class main extends HTMLElement {
                 // grid-row: 2/3;
             }
 
-            :host([grid]) .tp-main{
-                display: grid;
-                grid-template:  auto auto auto auto / auto auto auto auto;
-                gap: 16px;
+            :host([L]) .tp-main {
+                display: flex;
+                align-items: center;
+                flex-flow: row nowrap; 
+                justify-content: flex-end;
+            }
+
+            :host([R]) .tp-main {
+                display: flex;
+                align-items: center;
+                flex-flow: row nowrap; 
+                justify-content: flex-start;
+            }
+
+            :host([C]) .tp-main {
+                display: flex;
+                align-items: center;
+                flex-flow: row nowrap; 
+                justify-content: center;
+            }
+
+            :host([sb]) .tp-main {
+                display: flex;
+                align-items: center;
+                flex-flow: row nowrap; 
+                justify-content: space-between;
             }
 
             :host .tp-main{

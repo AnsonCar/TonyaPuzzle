@@ -1,4 +1,8 @@
 # Change Log(更新日志)
+## 2023-02-20 (v0.0.6)
+- [新增] DragDorp文件夾
+- [改善] ReferenceData內容
+ 
 ## 2023-02-17 (v0.0.6)
 - [新增] topnav 及 topnav-item 功能(居左居右居中平分)
 - [新增] Logo 組件

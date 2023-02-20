@@ -22,10 +22,7 @@ class frame extends HTMLElement {
                 grid-template-rows: var(--topnav-height) minmax(0, 1fr);
                 
                 grid-template-areas: 
-                    var(--frame-template-areas,
-                        'top top'
-                        'side main'
-                        );
+                    var(--frame-template-areas);
             }
 
             :host([ToB-01]) .tp-frame {

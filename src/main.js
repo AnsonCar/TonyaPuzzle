@@ -7,4 +7,4 @@ export * from "./component/tp-sidebar/esidebar.js";
 // main
 export * from "./component/tp-main/emain.js";
 // common
-export * from "./component/tp-common/ecommon.js";
+export * from "./component/tp-common/ecommon.js"; 
