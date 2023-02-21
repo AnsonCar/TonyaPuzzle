@@ -2,7 +2,7 @@
     <img width="192px" src="./docs/Logo/TonyaPuzzle_Logo02.png">
 </p>
 <h1 align="center"><b>TonyaPuzzle</b></h1>
-
+<p align="center">Version 0.1.0 Beta</p>
 <!-- 讓網頁開發就像拼圖一樣簡單 -->
 <p align="center">「讓<b>網頁開發</b>就像<b>拼圖</b>一樣<b>簡單</b>。」</p>
 <p align="center"> "Make Web Development as Easy as Piecing Together a Puzzle" </p>
@@ -19,9 +19,8 @@
 
 ## 項目結構
 ```
+
 TonyaPuzzle
-│
-├── Test 測試場
 │
 ├── LICENSE 開源證明
 ├── README.md 項目介紹
@@ -47,6 +46,8 @@ TonyaPuzzle
 │   ├── templateSyntax 模板語法
 │   └── tsx
 │
+├── Test 測試場
+│
 └── vite.config.js Vite配置文件
 
 ```
@@ -56,6 +57,16 @@ TonyaPuzzle
 ```
 git clone https://github.com/AnsonCar/TonyaPuzzle.git
 ```
+### 安裝所有依賴
+```
+npm i
+```
+### 打開index.html
+```
+vite
+```
+正常運作會顯示 <b>Local: http://localhost:XXXX/<b>。  
+在瀏覽器中 地址 就可以查看。
 
 ## 內容包括
 ### **TonyaPuzzleUI**
