@@ -1,6 +1,6 @@
 {
   "name": "tonyapuzzle",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Make Web Development as Easy as Piecing Together a Puzzle",
   "main": "index.js",
   "directories": {

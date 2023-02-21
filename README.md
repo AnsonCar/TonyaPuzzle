@@ -10,7 +10,7 @@
 ## 理念
 讓用戶**更易上手**及**維護**網頁。  
 盡量**提供**及**簡化**網頁開發所需工具。  
- 
+
 ## 特性
 1. **簡易上手**，開箱即用
 2. **通用性高**，使用原生H5, CSS3, JS開發
@@ -20,32 +20,34 @@
 ## 項目結構
 ```
 TonyaPuzzle
-├── Logo
 │
-├── README.md
+├── Test 測試場
+│
+├── LICENSE 開源證明
+├── README.md 項目介紹
 │
 ├── docs 文檔
-│   ├── ModuleStandard.md 組件規範
-│   ├── ReferenceData 參考資料
+│   ├── Logo
+│   ├── ReferenceData 參考資料  
 │   ├── TonyaPuzzle.xd 設計圖
 │   ├── changelog.md 開發日誌
-│   ├── component.md 組件API總覧
-│   └── tp-guidebook.md 組件指南
+│   └── guidebook 組件指南
 │
-├── index.html 入口
+├── index.html
 │
-├── node_modules 
+├── node_modules
 ├── package-lock.json
 ├── package.json
 │
 ├── src 源代碼
-│   ├── component 組件代碼
-│   ├── main.css 組件樣式
-│   ├── main.js 組件.js
-│   ├── style css
-│   └── templateSyntax 模板語法
+│   ├── component 組件
+│   ├── main.css 
+│   ├── main.js
+│   ├── style 組件樣式
+│   ├── templateSyntax 模板語法
+│   └── tsx
 │
-└── vite.config.js
+└── vite.config.js Vite配置文件
 
 ```
 
@@ -59,13 +61,14 @@ git clone https://github.com/AnsonCar/TonyaPuzzle.git
 ### **TonyaPuzzleUI**
 - UI Component (組件庫)
 - 后台及前台框架/模板
-### **TonyaPuzzleTX**
-- Template Syntax (模板語法)
 
 ## 未來更新
 - ### **TonyaPuzzle icon**
 - ### **TonyaPuzzle Chart**
 - ### **TonyaPuzzle (Web Builder Framework)**
+
+<!-- ### **Ason**
+- Template Syntax (模板語法) -->
 
 ## 查閱更多
 查看 [使用指南](./docs/guidebook/tp-guidebook.md)  
