@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="192px" src="Logo/TonyaPuzzle_Logo02.png">
+    <img width="192px" src="./docs/Logo/TonyaPuzzle_Logo02.png">
 </p>
 <h1 align="center"><b>TonyaPuzzle</b></h1>
 
@@ -27,12 +27,12 @@ TonyaPuzzle
 ├── docs 文檔
 │   ├── ModuleStandard.md 組件規範
 │   ├── ReferenceData 參考資料
-│   ├── TonyaPuzzle.xd 
+│   ├── TonyaPuzzle.xd 設計圖
 │   ├── changelog.md 開發日誌
 │   ├── component.md 組件API總覧
 │   └── tp-guidebook.md 組件指南
 │
-├── index.html 入口（開發用）
+├── index.html 入口
 │
 ├── node_modules 
 ├── package-lock.json
@@ -68,8 +68,8 @@ git clone https://github.com/AnsonCar/TonyaPuzzle.git
 - ### **TonyaPuzzle (Web Builder Framework)**
 
 ## 查閱更多
-查看 [使用指南](./docs/tp-guidebook.md)  
-查看 [組件API總覧](./docs/component.md)  
+查看 [使用指南](./docs/guidebook/tp-guidebook.md)  
+查看 [組件API總覧](./docs/guidebook/component.md)  
 
 查看 [Change Log(更新日志)](./docs/changelog.md)  
 查看 [參考資料](./docs/ReferenceData/ReferenceData.md)  

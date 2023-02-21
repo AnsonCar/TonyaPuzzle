@@ -1,10 +1,10 @@
 {
   "name": "tonyapuzzle",
-  "version": "1.0.0",
+  "version": "0.0.6",
   "description": "Make Web Development as Easy as Piecing Together a Puzzle",
   "main": "index.js",
   "directories": {
-    "doc": "doc",
+    "doc": "docs",
     "test": "test"
   },
   "scripts": {
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/AnsonCar/Tonya.git"
   },
-  "author": "",
+  "author": "AnsonCar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AnsonCar/Tonya/issues"

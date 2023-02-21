@@ -1,6 +1,6 @@
 # 參考資料
 ## [JavaScript Framework (JS框架)](./Framework.md)
-## [vite 打包工具](./vite.md)
+## [vite 打包工具](./Vite.md)
 ## [CSS grid 及 flex 布局](./GridFlex.md)
 ## [Other](Other.md)
 

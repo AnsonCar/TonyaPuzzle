@@ -4,6 +4,7 @@
 - [菜鳥-Vue3 模板语法](https://www.runoob.com/vue3/vue3-template-syntax.html)
 - [Vue-模板语法](https://cn.vuejs.org/guide/essentials/template-syntax.html)
 - [Vue.js 循环语句](https://www.runoob.com/vue2/vue-loop.html)
+- [Vue 3.2 源码系列](https://juejin.cn/post/7186248802423013432)
 
 ### AngularJS
 - [菜鳥-AngularJS 表达式 ](https://www.runoob.com/angularjs/angularjs-expressions.html)
