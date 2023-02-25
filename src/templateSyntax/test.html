@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+</head>
+
+<body>
+    <tp-frame ToB-00>
+        <tp-topnav sb>
+            <tp-logo c>
+                {{LOGO}}
+            </tp-logo>
+
+            <tp-topnav-item c>
+                <tp-topnav-avatar>
+
+                </tp-topnav-avatar>
+                <tp-topnav-text>
+                    {{name}}
+                </tp-topnav-text>
+            </tp-topnav-item>
+        </tp-topnav>
+        <tp-sidebar noScrollbar>
+
+        </tp-sidebar>
+        <tp-main>
+            <tp-item-box tpfor="a in box">
+                {{version}}
+            </tp-item-box>
+        </tp-main>
+    </tp-frame>
+    <!-- .getAttribute("tpfor"); -->
+    <!-- TonyaPuzzle UI組件 -->
+    <script type="module" src="../main.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <!-- 插值 -->
+    <script src="../tp-tsx.js"></script>
+    <script>
+        data("tp-frame", {
+            version: "v0.0.6",
+            name: "Anson",
+            LOGO: " TonyaPuzzle"
+        });
+    </script>
+</body>
+
+</html>
