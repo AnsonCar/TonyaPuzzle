@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="form">
+            <div class="form-group">
+                <label for="input1">Input 1</label>
+                <input type="text" class="form-control" id="input1" placeholder="Enter input 1">
+            </div>
+            <div class="form-group">
+                <label for="input2">Input 2</label>
+                <input type="text" class="form-control" id="input2" placeholder="Enter input 2">
+            </div>
+            <button type="submit" class="btn btn-primary">Generate Code</button>
+        </form>
+        <pre id="code-block"></pre>
+    </div>
+    <style>
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+    <script>
+        const form = document.querySelector('#form');
+        const codeBlock = document.querySelector('#code-block');
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const input1 = document.querySelector('#input1');
+            const input2 = document.querySelector('#input2');
+
+            const code = `
+                <div class="form-group">
+                <label for="${input1.value}">${input1.value}</label>
+                <input type="text" class="form-control" id="${input1.value}" placeholder="Enter ${input1.value}">
+                </div>
+                <div class="form-group">
+                <label for="${input2.value}">${input2.value}</label>
+                <input type="text" class="form-control" id="${input2.value}" placeholder="Enter ${input2.value}">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            `;
+            codeBlock.textContent = code;
+        });
+
+    </script>
+</body>
+
+</html>
