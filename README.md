@@ -7,9 +7,13 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- 讓網頁開發就像拼圖一樣簡單 -->
 <p align="center">「讓<b>網頁開發</b>就像<b>拼圖</b>一樣<b>簡單</b>。」</p>
 <p align="center"> "Make Web Development as Easy as Piecing Together a Puzzle" </p>
+=======
+<p align="center">用於項目初始化</p>
+>>>>>>> 9bf7fc5a62395fdf2e07be1f7274a1830db764cb
 =======
 <p align="center">用於項目初始化</p>
 >>>>>>> 9bf7fc5a62395fdf2e07be1f7274a1830db764cb
