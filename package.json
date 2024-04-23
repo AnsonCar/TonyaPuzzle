@@ -1,29 +1,23 @@
 {
-  "name": "tonyapuzzle",
-  "version": "0.1.0",
-  "description": "Make Web Development as Easy as Piecing Together a Puzzle",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
+  "name": "SvelteComponent",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnsonCar/Tonya.git"
-  },
-  "author": "AnsonCar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AnsonCar/Tonya/issues"
-  },
-  "homepage": "https://github.com/AnsonCar/Tonya#readme",
   "devDependencies": {
-    "vite": "^4.1.1"
-  }
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "svelte": "^3.5.0"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
 }
