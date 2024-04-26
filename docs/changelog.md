@@ -1,6 +1,9 @@
 # Change Log
 ## Version 0.2.0
+Date: 2024/04/26
+Editer: AnsonCar
 - 重啟項目
+- 使用 vite 和 svelte
 
 ## 2023-02-21 (v0.1.0)
 - [新增] 開源證明

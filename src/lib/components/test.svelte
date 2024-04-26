@@ -1,5 +1,5 @@
 <!-- your code here -->
-<svelte:options tag="tp-test" />
+<svelte:options customElement="tp-test" />
 
 <script>
     export let num = 0;
